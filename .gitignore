@@ -1,0 +1,50 @@
+# =========================
+# Archivos/carpeta de Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# =========================
+# Entornos virtuales
+# =========================
+.venv/
+venv/
+env/
+
+# =========================
+# Archivos de distribución / build
+# =========================
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# =========================
+# Tests / cobertura
+# =========================
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# =========================
+# IDEs y editores
+# =========================
+.vscode/
+.idea/
+*.swp
+*~
+
+# =========================
+# Archivos de sistema
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Jupyter (por si usas notebooks)
+# =========================
+.ipynb_checkpoints/
