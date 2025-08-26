@@ -1,0 +1,5 @@
+   test_statistic         p  -log2(p)
+0        1.148362  0.283892  1.816585
+Treshold used for separating groups: -0.025520970720126702
+n positive: 118
+n negative: 96
