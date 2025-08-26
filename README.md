@@ -36,8 +36,8 @@ This function is based on the method described at:
 Foroutan et al. BMC Bioinformatics (2018) 19:404
 https://doi.org/10.1186/s12859-018-2435-4
 
+- surv_cutpoint:
 
-- surv_cutpoint: 
 This function inputs de score df (sample and score) and a df with the clinical data (sample, time, event).
 A minimum % of samples per group is possible, defect = 20%.
 
@@ -46,16 +46,18 @@ will record the result statistic of that test and the score threshold will be th
 This function was also an interpretation from the surv_cutpoint function from survminer: https://github.com/kassambara/survminer/blob/master/R/surv_cutpoint.R.
 
 - kaplan_meier
+
 This function inputs the score df (sample and score), a df with the clinical data (sample, time, event) and the score threshold.
 The function will separate the clinical df samples in positive and negative groups. Will perform a kaplan-meier, plot it with the log-rank test p-value result and return a file with a summary of the analysis.
 
 - signature_surv:
+
 This function creates the final pipeline that includes all of the above functions. 
 This function inputs the expression matrix, the clinical df and the gene signature lists.
 
 
 
-test: Examples for the use of the functions are found in tests folder.
+Test: Examples for the use of the functions are found in tests folder.
 Expression and clinical df are from the public TCGA-BRCA database.
 Gen signatures are random selected genes from different hallmarks.
 
