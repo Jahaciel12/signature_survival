@@ -22,6 +22,7 @@ Functions: *the main function with the whole pipeline is: signature_surv. But is
 For more details on the inputs read documented functions.
 
 - signature_score:
+
 This function inputs an expression matrix and a gene signature (a list of upregulated genes and/or a list of downregulated genes) and returns
 a score for each sample based on how aproximate the expression of the genes of that sample is the the upregulated, downregulated genes of the
 gene signature. 
