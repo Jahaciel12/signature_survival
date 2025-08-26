@@ -61,3 +61,9 @@ Test: Examples for the use of the functions are found in tests folder.
 Expression and clinical df are from the public TCGA-BRCA database.
 Gen signatures are random selected genes from different hallmarks.
 
+INSTALLATION:
+
+This packet can be installed with pip manager:
+
+'python -m pip install --upgrade pip'
+'pip install gene-signature-survival'
