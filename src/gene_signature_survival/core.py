@@ -232,8 +232,8 @@ def kaplan_meier(df_scores: pd.DataFrame, df_clinical: pd.DataFrame, time: str, 
     time: string stating the name of the column in the df_clinical where the time untill event is found
     event: string stating the name of the column in the df_clinical where the event is found
     score_name: Name of the score (i.e. if the score comes from a gene signature, the gene signature name)
-    threshold: a float number, is the score threshold which will split the samples in high score or low score, ,
-    ormally determined from surv_cutpoint function.
+    threshold: a float number, is the score threshold which will split the samples in high score or low score,
+    normally determined from surv_cutpoint function.
     dir: Directory were you want to save the result file and the kaplan meier grafic.
     '''
     # we separe groups by score treshold
